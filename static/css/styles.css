@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    background-color: #000000;
+}
+
+/* logotipo  */
+
+.adjustlogo{
+    text-align: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    padding-top: 10px;
+    z-index: 999;
+    padding: 10px;
+}
+
+
+#sizeLog{
+    width: 90px;
+    height: 90px;
+    transition: all 0.3s;
+}
+
+
+#sizeLog:hover{
+    transform: scale(1.1) rotate(360deg);
+    border: 10px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Superior */
+
+.backgroundhead{
+    margin-top: 76px;
+    background-color: #333;
+    width: 100%;
+}
+
+#centerContent{
+    text-align: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+#sizephoto{
+    margin-left: 0px;
+    width: 240px;
+    height: 240px;
+}
+
+/* content */
+
+.card{
+    background-color: #000000;
+}
+
+.centerIcon{
+    text-align: center;
+    justify-content: center;
+}
+
+.formaIma{
+    width: 50px;
+    height: 50px;
+}
+
+.centerTitle{
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.justified-text {
+    text-align: justify;
+    color: rgb(255, 255, 255);
+}
+
+
+/* carouserl */
+
+.positionContainer{
+    justify-content: center;
+}
+
+.contentRow{
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+}
+
+.formBack{
+    background: #333;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 5px -5px 10px 0px rgba(255, 255, 255, 0.5);
+}
+
+.positonText{
+    padding-top: 60px;
+}
+
+
+
+
+/* footer */
+
+.point_fail{
+    list-style: none; 
+}
+
+.formRedes{
+    display: inline-block;
+}
+
+#net_fb{
+    margin: 3px;
+    cursor: pointer;
+}
+
+#net_fb:hover{
+    color: #3b5998;
+}
+
+#net_wha{
+    margin: 3px;
+    cursor: pointer;
+}
+
+#net_wha:hover{
+    color: #25D366;
+}
+#net_link{
+    margin: 3px;
+    cursor: pointer;
+}
+
+#net_link:hover{
+    color: #0e76a8;
+}
+
+.fomrIconRed{
+    text-decoration: none; 
+    color: inherit;
+    font-size: 20px;
+}
+
